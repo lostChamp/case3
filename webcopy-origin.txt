@@ -1,0 +1,272 @@
+Uri: https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\npm\@fancyapps\ui@4.0\dist\fancybox.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\npm\@fancyapps\ui@4.0\dist\fancybox.umd.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\ajax\libs\jquery.maskedinput\1.4.1\jquery.maskedinput.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-1.11.0.min.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\jquery-1.11.0.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-migrate-1.2.1.min.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\jquery-migrate-1.2.1.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX8.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf
+Content Type: font/ttf
+
+Uri: https://mc.yandex.ru/watch/95110198
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\watch\95110198
+Content Type: image/gif
+
+Uri: https://mc.yandex.ru/watch/95110204
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\watch\95110204
+Content Type: image/gif
+
+Uri: https://mc.yandex.ru/watch/95110208
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\watch\95110208
+Content Type: image/gif
+
+Uri: https://mc.yandex.ru/watch/95110210
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\watch\95110210
+Content Type: image/gif
+
+Uri: https://mc.yandex.ru/watch/95449300
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\watch\95449300
+Content Type: image/gif
+
+Uri: https://mc.yandex.ru/watch/95449416
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\watch\95449416
+Content Type: image/gif
+
+Uri: https://stomatologia-zubov.ru/
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\index.htm
+Content Type: text/html
+
+Uri: https://stomatologia-zubov.ru/css/grid.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\css\grid.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/css/jquery.fancybox.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\css\jquery.fancybox.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/css/normalize.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\css\normalize.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/css/responsive.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\css\responsive.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/css/style.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\css\style.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/favicon.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\favicon.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/fonts/arrow.svg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\fonts\arrow.svg
+Content Type: image/svg+xml
+
+Uri: https://stomatologia-zubov.ru/fonts/check.svg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\fonts\check.svg
+Content Type: image/svg+xml
+
+Uri: https://stomatologia-zubov.ru/fonts/sprite.svg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\fonts\sprite.svg
+Content Type: image/svg+xml
+
+Uri: https://stomatologia-zubov.ru/images/calc.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\calc.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/check.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\check.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/logo.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\logo.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/main-1.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\main-1.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/mobile.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\mobile.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/present-1.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\present-1.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/present-2.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\present-2.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/question-1.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\question-1.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/question-2.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\question-2.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/question-3.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\question-3.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/question-4.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\question-4.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/question-5.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\question-5.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/sky.png
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\sky.png
+Content Type: image/png
+
+Uri: https://stomatologia-zubov.ru/images/slider/1.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\slider\1.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/slider/2.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\slider\2.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/images/slider/3.jpg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\images\slider\3.jpg
+Content Type: image/jpeg
+
+Uri: https://stomatologia-zubov.ru/js/scripts.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\js\scripts.js
+Content Type: application/x-javascript
+
+Uri: https://stomatologia-zubov.ru/policy.pdf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\policy.pdf
+Content Type: application/pdf
+
+Uri: https://stomatologia-zubov.ru/slick/ajax-loader.gif
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://stomatologia-zubov.ru/slick/fonts/slick.eot
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://stomatologia-zubov.ru/slick/fonts/slick.eot?
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://stomatologia-zubov.ru/slick/fonts/slick.svg
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: https://stomatologia-zubov.ru/slick/fonts/slick.ttf
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\fonts\slick.ttf
+Content Type: application/octet-stream
+
+Uri: https://stomatologia-zubov.ru/slick/fonts/slick.woff
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\fonts\slick.woff
+Content Type: application/font-woff
+
+Uri: https://stomatologia-zubov.ru/slick/slick-theme.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\slick-theme.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/slick/slick.css
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\slick.css
+Content Type: text/css
+
+Uri: https://stomatologia-zubov.ru/slick/slick.min.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\slick\slick.min.js
+Content Type: application/x-javascript
+
+Uri: https://stomatologia-zubov.ru/thanks/thanks.js
+File Name: C:\Users\user\Downloads\stomatologia-zubov.ru\thanks\thanks.js
+Content Type: application/x-javascript
+
