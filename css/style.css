@@ -881,3 +881,9 @@ header {
 .slide .controls{
   margin-top: 50px;
 }
+
+.copyright .container .text {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
