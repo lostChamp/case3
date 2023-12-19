@@ -1726,7 +1726,8 @@ header {
   .quiz__pages__navigation .btn_forward {
     max-width: 198px;
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
+    padding: 15px 10px;
   }
   .quiz__pages__gift {
     margin-left: 7px;
@@ -1832,6 +1833,12 @@ header {
     margin-top: 50px;
     transform: translateX(-85px)
   }
+}
+
+.btn2 {
+  background: #ffa600;
+  box-shadow: 0 13px 22px rgba(231, 90, 60, .2);
+  border-radius: 68px;
 }
 
 @media screen and (max-width:1023px) {
@@ -2223,7 +2230,9 @@ header {
   .quiz__pages__navigation .btn_forward {
     font-size: 12px;
     line-height: 15px;
-    height: 52px
+  }
+  .btn2 {
+    background: #f36600;
   }
   .quiz__pages__gift {
     display: block;
@@ -2286,7 +2295,7 @@ header {
     max-width: 100%;
     margin-left: 22px;
     margin-right: 19px;
-    margin-top: 18px
+    margin-top: 40px
   }
   .quiz__results .quiz__results__gift>div {
     font-size: 12px;
@@ -2407,4 +2416,32 @@ header {
   background-color: #f2f2f2;
   border-radius: 58px;
   transition: .1s ease;
+}
+
+.btn_arrow .text {
+  position: relative;
+  padding-right: 28px;
+  margin: 10px 35px;
+}
+
+.btn_arrow .text:after {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 8px;
+  right: 0;
+  top: 50%;
+  margin-top: -4px;
+  background-image: url(../images/arrow.png)
+}
+
+.btn_correct_size_results {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
