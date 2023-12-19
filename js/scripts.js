@@ -35,27 +35,6 @@ $(document).ready((function () {
 		return void 0 !== t && "" !== t && $("html, body").animate({
 			scrollTop: i - 113
 		}, 700), !1
-	})), $("form").submit((function () {
-		var t = this;
-		if (this.form && !this.form.value) return this.form.focus(), !1;
-		var e = $(t).find('button[type="submit"]').text();
-		return $(t).find('button[type="submit"]').text("Отправка...").attr("disabled", "disabled"), $.ajax({
-			type: "POST",
-			url: $(this).attr("action") || "send.php",
-			data: $(this).serialize(),
-			success: function (t) {
-				"1" == t ? ($('input[type="text"], input[type="tel"]').val(""), $.fancybox.open({
-					src: "#thanks",
-					type: "inline"
-				}), ym(87284396, "reachGoal", "zayavka1")) : alert(t)
-			},
-			error: function () {
-				// alert("Network Error")
-			},
-			complete: function () {
-				$(t).find('button[type="submit"]').text(e).removeAttr("disabled")
-			}
-		}), !1
 	}))
 
 

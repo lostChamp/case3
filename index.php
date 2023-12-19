@@ -124,6 +124,9 @@
 				<div class="quiz__main">
 					<div class="row">
 						<form class="quiz__form" data-js-quiz="wrapper" action="postBitrixTelegram.php" method="POST">
+                            <input type="hidden" name="tags" value="Заявка с квиза" class="input">
+                            <input type="hidden" name="subject" value="Пройден тест (квиз)">
+                            <input type="hidden" name="form_type" value="quiz">
                             <input type="hidden" name="utm" value="<?= empty($utm) ? $cookie : $utm ?>">
                             <input type="hidden" name="title" value="<?= $_GET["title"] ?? ''?>">
                             <input type="hidden" name="utm_campaign" value="<?= $_GET["utm_campaign"] ?? ''?>">
