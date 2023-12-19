@@ -1,8 +1,19 @@
-﻿<!DOCTYPE html><html lang="ru"><head>
+﻿<?php
+    $utm = $_GET["utm_source"] ?? "";
+    $cookie = $_COOKIE["utm_source"] ?? "";
+    if(!array_key_exists("utm_source", $_COOKIE)) {
+        setcookie("utm_source", $utm, time()+3600);
+    }
+    if(array_key_exists("utm_source", $_COOKIE) && $_COOKIE["utm_source"] !== $utm && !empty($utm)) {
+        setcookie("utm_source", $utm, time()+3600);
+    }
+?>
+
+<!DOCTYPE html><html lang="ru"><head>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
 	
-	<title>Имплантация со скидкой 50% от стоматологической клиники Все свои в Екатеринбурге.</title>
+	<title>Имплантация со скидкой 50% от стоматологической клиники Ультра-Дент в Екатеринбурге.</title>
 	
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
@@ -112,7 +123,14 @@
 			<div class="quiz" data-js-scroll-target="quiz" id="quiz">
 				<div class="quiz__main">
 					<div class="row">
-						<form class="quiz__form" data-js-quiz="wrapper" action="thanks.html" method="POST">
+						<form class="quiz__form" data-js-quiz="wrapper" action="postBitrixTelegram.php" method="POST">
+                            <input type="hidden" name="utm" value="<?= empty($utm) ? $cookie : $utm ?>">
+                            <input type="hidden" name="title" value="<?= $_GET["title"] ?? ''?>">
+                            <input type="hidden" name="utm_campaign" value="<?= $_GET["utm_campaign"] ?? ''?>">
+                            <input type="hidden" name="utm_medium" value="<?= $_GET["utm_medium"] ?? ''?>">
+                            <input type="hidden" name="utm_content" value="<?= $_GET["utm_content"] ?? ''?>">
+                            <input type="hidden" name="utm_term" value="<?= $_GET["utm_term"] ?? ''?>">
+                            <input type="hidden" name="city" value="<?= $_GET["city"] ?? ''?>">
 							<div class="quiz__grid">
 								<div>
 									<div class="quiz__employee">
@@ -120,7 +138,7 @@
 											<div class="quiz__employee__photo"> <img src="images/kristine.png" alt=""> </div>
 										</div>
 										<div class="quiz__employee__fio">
-											<strong>Гудкова кристине</strong>
+											<strong style="text-decoration: underline">Гудкова кристине</strong>
 											<span>
                                     Врач стоматолог
                                  </span>
@@ -325,7 +343,7 @@
 													</div>
 													<div class="quiz__pages__navigation" data-js="quiz-navigation">
 														<div class="quiz__pages__gift">
-															<i> <img src="index.html" data-src="build/ii/1e25ef409292c773bac7533d330e8b588fc7be92.png" alt="" data-js="lazy"> </i>
+															<i> <img src="index.php" data-src="build/ii/1e25ef409292c773bac7533d330e8b588fc7be92.png" alt="" data-js="lazy"> </i>
 															<div>
 																Пройдите тест до конца и&nbsp;<b>получите подарок</b> стоимостью
 																<div class="quiz__pages__gift__price">3 500&nbsp;₽</div>
@@ -346,7 +364,7 @@
 													</div>
 												</div>
 												<div class="quiz__pages__gift quiz__results__gift">
-													<i> <img src="index.html" data-src="build/ii/1e25ef409292c773bac7533d330e8b588fc7be92.png" alt="" data-js="lazy"> </i>
+													<i> <img src="index.php" data-src="build/ii/1e25ef409292c773bac7533d330e8b588fc7be92.png" alt="" data-js="lazy"> </i>
 													<div>
 														За этим номером забронируем ваш подарок — <b>3D снимок полости рта бесплатно</b>
 														<div class="quiz__results__gift__price"> <span class="old">3 500</span> <span class="new">0 ₽</span> </div>

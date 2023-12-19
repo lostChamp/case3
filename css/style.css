@@ -565,7 +565,6 @@ header {
 
 .quiz {
   position: relative;
-  margin-top: 144px;
   padding-top: 65px;
   padding-bottom: 138px;
 }
@@ -1188,7 +1187,7 @@ header {
   align-items: center;
   display: flex;
   position: relative;
-  min-height: 458px;
+  height: 550px;
   background-color: #fff;
   box-shadow: 0 16px 22px rgba(0, 0, 0, .05);
   border-radius: 14px;
@@ -1651,7 +1650,7 @@ header {
   }
   .quiz__pages-wrapper {
     padding: 0 16px 49px 34px;
-    height: 370px;
+    height: 400px;
   }
   .quiz__page__title {
     margin-top: 50px
