@@ -1094,7 +1094,7 @@ header {
   position: absolute;
   width: 87px;
   height: 95px;
-  background-image: url(../i/e1c15d4fa8622aa4c1c034d9c4d5f12c.png);
+  background-image: url(../images/gift.png);
   left: -30px;
   top: 6px
 }
@@ -1264,7 +1264,8 @@ header {
   bottom: 123px;
   padding-left: 88px;
   min-height: 151px;
-  padding-right: 18px
+  padding-right: 18px;
+  margin-bottom: 120px;
 }
 
 .quiz__results__gift>div {
@@ -1886,7 +1887,7 @@ header {
     padding-left: 27px;
     padding-right: 24px;
     padding-bottom: 19px;
-    height: 400px;
+    height: 450px;
   }
   .quiz__page__title {
     font-size: 16px;
@@ -2426,6 +2427,10 @@ header {
   .loader_sizes {
     height: 600px;
     width: 900px;
+  }
+
+  .quiz__results__gift {
+    margin-bottom: 65px;
   }
 }
 
