@@ -38,7 +38,6 @@ foreach ($tempPost as $key => $value) {
     $index++;
 }
 $bitrixPost = json_encode($bitrixQuery, true);
-var_dump($bitrixPost);
 
 $curl = curl_init();
 
@@ -90,8 +89,6 @@ foreach ($_POST as $key => $value) {
 
 $telegramPost = json_encode($telegramQuery, true);
 
-var_dump($telegramPost);
-
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -113,3 +110,5 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 
+header("Location: https://quiz.stoma-ekb.ru/");
+die();
