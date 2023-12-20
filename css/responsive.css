@@ -60,16 +60,13 @@
 }
 
 @media (max-width: 1199px) {
-	
-	.main .main-block > .image {
-		display: none;
+
+	.main-block .info .controls:after {
+		left: 65%
 	}
 
-	.main-block .info .controls {
-		margin: 0 0 92px 250px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
+	.main .main-block > .image {
+		display: none;
 	}
 
 	.header-block .logo {
@@ -131,8 +128,11 @@
 		line-height: 1.2;
 	}
 
-	.controls {
-		margin: 0 auto;
+
+	.main-block .info .controls {
+		margin: 0 auto 30px;
+		width: 100%;
+		text-align: center;
 	}
 
 	.main-block .info .presents {
@@ -198,13 +198,10 @@
 
 @media (max-width: 991px) {
 
-	.main-block .info .controls {
-		margin: 0 0 92px 150px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
+	.main-block .info .controls:after {
+		display: none;
 	}
-	
+
 	.steps-block {
 		width: 100%;
 	}
@@ -278,18 +275,6 @@
 }
 
 @media (max-width: 767px) {
-
-	.main-block .info .controls {
-		margin: 0 0 92px 70px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
-	}
-
-	.controls:after {
-		display: none;
-	}
-
 	.wrapper {
 		/* background: url(../images/bg.jpg) no-repeat 63% 0 #FFF; */
 		overflow: hidden;
@@ -526,13 +511,6 @@
 }
 
 @media (max-width: 524px) {
-	.main-block .info .controls {
-		margin: 0 0 92px 100px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
-	}
-
 	.main-block .title strong {
 		margin: 15px 0;
 		font-size: 18px;
@@ -545,12 +523,7 @@
 }
 
 @media (max-width: 474px) {
-	.main-block .info .controls {
-		margin: 0 0 92px 70px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
-	}
+
 }
 
 @media (max-width: 425px) {
@@ -563,20 +536,8 @@
 		padding: 0 0 30px;
 	}
 
-	.main-block .info .controls {
-		margin: 0 0 92px 50px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
-	}
-
 }
 
 @media (max-width: 374px) {
-	.main-block .info .controls {
-		margin: 0 0 92px;
-		display: inline-block;
-		vertical-align: top;
-		position: relative;
-	}
+
 }
