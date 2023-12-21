@@ -60,3 +60,22 @@ $(document).ready(function () {
 	});
 
 });
+
+$(document).ready(function () {
+
+	var selectedCity = "";
+
+	$("a[href='#popup2']").click(function () {
+		$("#popup2").show();
+	});
+	$(".popup2, .close").click(function () {
+		$("#popup2").hide();
+	});
+
+
+
+	$("#popup2 .city").change(function () {
+		selectedCity = $("#popup2 .city").val();
+	});
+
+});

@@ -11,54 +11,56 @@ $templates = [
     "phone" => "phone"
 ];
 
-$bitrix = "https://api.tech-ud72.ru/sendBx/index.php";
+//$bitrix = "https://api.tech-ud72.ru/sendBx/index.php";
 $telegram = "https://api.tech-ud72.ru/sendTg/index.php";
 
 $tempPost = $_POST;
 
-$bitrixQuery = json_decode(file_get_contents("queryBitrix.json"), true);
-$fieldsBitrixQuery = ["utm", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
-foreach($fieldsBitrixQuery as $field) {
-    if(isset($tempPost[$field])) {
-        $bitrixQuery["options"][$field] = $tempPost[$field];
-        unset($tempPost[$field]);
-    }
-}
-$fieldsNotRequiredBitrix = ["title", "city"];
-foreach($fieldsNotRequiredBitrix as $field) {
-    unset($tempPost[$field]);
-}
+//$bitrixQuery = json_decode(file_get_contents("queryBitrix.json"), true);
+//$fieldsBitrixQuery = ["utm", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+//foreach($fieldsBitrixQuery as $field) {
+//    if(isset($tempPost[$field])) {
+//        $bitrixQuery["options"][$field] = $tempPost[$field];
+//        unset($tempPost[$field]);
+//    }
+//}
+//$fieldsNotRequiredBitrix = ["title", "city"];
+//foreach($fieldsNotRequiredBitrix as $field) {
+//    unset($tempPost[$field]);
+//}
+//
+//$index = 0;
+//foreach ($tempPost as $key => $value) {
+//    if($key !== "tags" && $key !== "subject" && $key !== "form_type") {
+//        $bitrixQuery["options"]["data"][$index]["name"] = $templates[$key];
+//    }
+//    $bitrixQuery["options"]["data"][$index]["value"] = is_array($value) ? implode(", ", $value) : $value;
+//    $index++;
+//}
+//$bitrixPost = json_encode($bitrixQuery, true);
+//
+//var_dump($bitrixPost);
 
-$index = 0;
-foreach ($tempPost as $key => $value) {
-    if($key !== "tags" && $key !== "subject" && $key !== "form_type") {
-        $bitrixQuery["options"]["data"][$index]["name"] = $templates[$key];
-    }
-    $bitrixQuery["options"]["data"][$index]["value"] = is_array($value) ? implode(", ", $value) : $value;
-    $index++;
-}
-$bitrixPost = json_encode($bitrixQuery, true);
-
-$curl = curl_init();
-
-curl_setopt_array($curl, array(
-    CURLOPT_URL => $bitrix,
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_ENCODING => '',
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 0,
-    CURLOPT_FOLLOWLOCATION => true,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS => $bitrixPost,
-    CURLOPT_HTTPHEADER => array(
-        'Content-Type: application/json'
-    ),
-));
-
-$response = curl_exec($curl);
-
-curl_close($curl);
+//$curl = curl_init();
+//
+//curl_setopt_array($curl, array(
+//    CURLOPT_URL => $bitrix,
+//    CURLOPT_RETURNTRANSFER => true,
+//    CURLOPT_ENCODING => '',
+//    CURLOPT_MAXREDIRS => 10,
+//    CURLOPT_TIMEOUT => 0,
+//    CURLOPT_FOLLOWLOCATION => true,
+//    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//    CURLOPT_CUSTOMREQUEST => 'POST',
+//    CURLOPT_POSTFIELDS => $bitrixPost,
+//    CURLOPT_HTTPHEADER => array(
+//        'Content-Type: application/json'
+//    ),
+//));
+//
+//$response = curl_exec($curl);
+//
+//curl_close($curl);
 
 $telegramQuery = json_decode(file_get_contents("queryTelegram.json"), true);
 $fieldsTelegramQuery = ["utm", "utm_medium", "city"];
@@ -109,5 +111,7 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 
-header("Location: https://quiz.stoma-ekb.ru/");
-die();
+var_dump($telegramPost);
+//
+//header("Location: https://quiz.stoma-ekb.ru/");
+//die();

@@ -948,7 +948,7 @@ header {
 }
 
 .radio__item.checked .text:before {
-  background-image: url(../i/e4303d0070496464dde18f1745a2e059.svg)
+  background-image: url(../images/fkng_dot.svg)
 }
 
 .radio__item img {
@@ -2570,6 +2570,45 @@ header {
   outline: none;
   border: 1px solid black;
 }
+
+#popup2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+#popup2 .container {
+  margin-top: 50px;
+  height: 500px;
+}
+
+#popup2 .container .screen {
+  height: 600px;
+  overflow: auto;
+}
+
+#popup2 .container .close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 13;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+
+
 
 
 
