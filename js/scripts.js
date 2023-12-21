@@ -41,3 +41,22 @@ $(document).ready((function () {
 
 
 }));
+
+$(document).ready(function () {
+
+	var selectedCity = "";
+
+	$("a[href='#popup']").click(function () {
+		$("#popup").show();
+	});
+	$(".popup, .close").click(function () {
+		$("#popup").hide();
+	});
+
+
+
+	$("#popup .city").change(function () {
+		selectedCity = $("#popup .city").val();
+	});
+
+});

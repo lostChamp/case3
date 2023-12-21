@@ -60,7 +60,6 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 
-
 $telegramQuery = json_decode(file_get_contents("queryTelegram.json"), true);
 $fieldsTelegramQuery = ["utm", "utm_medium", "city"];
 $fieldsNotRequiredTg = ["utm_campaign", "utm_content", "utm_term", "title", "city"];

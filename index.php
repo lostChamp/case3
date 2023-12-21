@@ -36,7 +36,7 @@
 						<a href="tel:+73433855984" class="phone phone-rs">+7 (3433)855-984</a>
 						<div class="time">Сейчас работаем</div>
 					</div>
-					<div class="control"><a href="#quiz-section" class="btn btn-border sl">Перезвоните мне</a></div>
+					<div class="control"><a href="#popup" class="btn btn-border sl">Перезвоните мне</a></div>
 					
 				</div>
 			</div>
@@ -453,13 +453,34 @@
 		</div>
 	</div>
 
+        <div id="popup">
+            <div class="popup">
+            </div>
+            <div class="container">
+                <div class="close">X</div>
+                <form action="postBitrixTelegram.php" method="post">
+                    <input type="hidden" name="utm" value="<?= empty($utm) ? $cookie : $utm ?>">
+                    <input type="hidden" name="title" value="<?= $_GET["title"] ?? ''?>">
+                    <input type="hidden" name="utm_campaign" value="<?= $_GET["utm_campaign"] ?? ''?>">
+                    <input type="hidden" name="utm_medium" value="<?= $_GET["utm_medium"] ?? ''?>">
+                    <input type="hidden" name="utm_content" value="<?= $_GET["utm_content"] ?? ''?>">
+                    <input type="hidden" name="utm_term" value="<?= $_GET["utm_term"] ?? ''?>">
+                    <input type="hidden" name="city" value="<?= $_GET["city"] ?? ''?>">
+                    <div class="screen screen1">
+                        <h2>Оставьте заявку, мы свяжемся с Вами в ближайшее время</h2>
+                        <input type="tel" name="phone" placeholder="Телефон" required>
+                        <button class="submit btn">Оставить заявку</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
 
 
 
 
-
-
-  <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
